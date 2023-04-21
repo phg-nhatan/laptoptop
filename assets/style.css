@@ -1,0 +1,293 @@
+:root {
+    --primary-color: #00293c;
+    --second-color: #f1f3ce;
+    --third-color: #1e656d;
+    --gray-color: #E5E5E5;
+    --dark-color: rgb(33, 37, 41);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(135, 134, 134) !important;
+}
+    
+    .div_left{
+    
+    width: 600px;
+    
+    float: left;
+width: 100%;
+
+}
+
+.div_left{
+
+width: 600px;
+
+float: left;
+
+
+
+}
+
+.div_right{
+
+width: 50%;
+
+float: left;
+
+
+}
+    
+/* Custom button in nav */
+.btn-nav:hover {
+    background-color: var(--second-color);
+    color: var(--dark-color) !important; 
+}
+
+.btn-nav.active,
+.btn-nav:focus {
+    box-shadow: none;
+    background-color: var(--second-color);
+    color: var(--dark-color) !important; 
+}
+
+/* Find icon in header */
+.find-icon:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+
+/* Custom header menu */
+.header-menu {
+    background-color: var(--gray-color);
+}
+
+.header-user .account a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.header-user .account a:hover {
+    color: var(--second-color);
+}
+
+.btn-cart {
+    background-color: none;
+    color: whitesmoke;
+}
+
+.btn-cart:hover {
+    background-color: var(--second-color);
+}
+
+.account-user {
+    color: whitesmoke;
+}
+
+/* Custom button in header menu */
+.btn-header-menu {
+    background-color: white;
+    color: var(--dark-color);
+}
+
+.btn-header-menu:hover,
+.btn-header-menu.active {    
+    background-color: var(--third-color);
+    color: whitesmoke;
+}
+
+/* button giohang xoa */
+.btn-giohang-xoa {
+    background-color: white;
+    color: var(--dark-color);
+}
+
+.btn-giohang-xoa:hover,
+.btn-giohang-xoa.active {    
+    background-color: var(--dark-color);
+    color: whitesmoke;
+}
+
+/* button giohang dat hang */
+.btn-giohang-dathang {
+    background-color: var(--third-color);
+    color: whitesmoke;
+}
+
+.btn-giohang-dathang:hover,
+.btn-giohang-dathang.active {    
+    opacity: 0.9;
+    color: whitesmoke;
+}
+
+/* Custom hover list dropdown at header-user */
+.account-user:hover {
+    cursor: pointer;
+}
+.account-user:hover .header-dropdown{
+    cursor: pointer;
+    display: block !important;
+}
+
+.header-user .list-group-item:hover {
+    cursor: pointer;
+    background-color: var(--gray-color);
+}
+
+/* Custom button inc or dec quantity of product */
+.btn-quantity:hover {
+    user-select: none;
+    cursor: pointer;
+    background-color: rgb(200, 200, 200) !important;
+}
+
+/* Custom button add cart in product */
+.btn-add-cart {    
+    user-select: none;
+    background-color: var(--third-color);
+    color: whitesmoke;
+}
+
+.btn-add-cart:hover,
+.btn-add-cart.active {
+    background-color: var(--second-color);
+    color: var(--dark-color);
+}
+
+/* Custom button filter in coleections */
+.btn-filter {    
+    background-color: whitesmoke;
+    color: var(--dark-color);
+    border: 1px solid var(--dark-color);
+}
+
+.btn-filter:hover,
+.btn-filter.active {
+    background-color: var(--third-color);
+    color: whitesmoke;
+}
+
+/* Custom menu in admin page */
+.menu-admin a{
+    text-decoration: none;
+}
+
+.btn-admenu.active,
+.btn-admenu:hover {
+    background-color: var(--third-color);
+    cursor: pointer;
+}
+
+/* Custom admin header logout */
+.header-admin-logout a{
+    text-decoration: none;
+    color: var(--dark-color);
+}
+
+.header-admin-logout:hover,
+.header-admin-logout:hover a{
+    color: var(--third-color) !important;
+}
+
+/* Navbar cua quan ly don hang */
+.qldh-nav:hover,
+.qldh-nav.active {
+    cursor: pointer;
+    color: white;
+    background-color: var(--third-color);
+}
+
+/* Nut tim kiem cua quan ly don hang */
+.btn-qldh-timkiem {
+    background-color: var(--third-color);
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 4px;
+}
+
+.btn-qldh-timkiem:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+/* Điều hướng phân trang */
+
+.page-link {
+    color: var(--dark-color) ;
+}
+.page-item.disabled {
+    color: rgba(0, 0, 0, 0.2) !important;
+}
+
+.page-item.active .page-link{
+    background-color: var(--third-color);
+    color: white !important;
+}
+
+/* Chinh sua account */
+.edit-admin-acc {
+    color: var(--third-color);
+}
+
+.edit-admin-acc:hover {
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+/* Chinh sua sp */
+.btn-admin,
+.btn-suasp,
+.btn-themsp {
+    color: white;
+    background-color: var(--third-color);
+    padding: 8px;
+    cursor: pointer;
+}
+
+.btn-admin:hover,
+.btn-suasp:hover,
+.btn-themsp:hover {
+    opacity: 0.8;
+    color: white;
+}
+
+.btn-lsdonhang:hover {
+    background-color: var(--third-color);
+    color: white; 
+    cursor: pointer;
+}
+
+.btn-lsdonhang.active,
+.btn-lsdonhang:focus {
+    box-shadow: none;
+    background-color: var(--third-color);
+    color: white; 
+}
+.btn-lienhe {    
+    background-color: white;
+}
+
+.btn-lienhe:hover,
+.btn-lienhe.active {
+    background-color: var(--gray-color);
+}
+
+.menu-mobile-item:hover,
+.menu-mobile-item.active {
+    cursor: pointer;
+    border: none;
+    background-color: #dedede;
+}
+
+.mobile-filter input[type='checkbox'],
+.filter input[type='checkbox'] {
+    width: 0px;
+    height: 0px;
+}
